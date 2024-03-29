@@ -4,13 +4,14 @@ body{
 }
 
 .primary-btn{
-    width: 160px;
+    width: 180px;
     height: 64px;
     border-radius: 5px;
     border: none;
     background-color: #FD6E0A;
     color: white;
     padding: 15px 35px;
+    text-align: center;
 }
 
 h3{
@@ -89,7 +90,7 @@ main section{
     margin-top: 130px;
 }
 
-section .about-title{
+.about-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -105,7 +106,7 @@ section .about-title{
 .about-description{
     color: #757575;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .about-info-container{
@@ -176,5 +177,38 @@ skills-description{
 
 .download-cv{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column{
+    width: 50%;
+    gap: 100px;
+
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    width: 100%;
+}
+
+.contact input{
+    width: 100px;
+}
+
+.social-link a{
+    margin-left: 24px;
+}
+
